@@ -254,6 +254,48 @@ Dans le cas contraire, l'API retourne un code HTTP approprié (`400`, `401` ou `
 
 ---
 
+# Flux métier 
+
+Un schéma explicatif de la requête de transfert détaillant la validation métier.
+
+```
+Client (Postman / Swagger)
+            │
+            │
+    POST /api/products/{id}/move/
+            │
+            ▼
+    ProductViewSet.move()
+            │
+            ▼
+    Récupération du produit (get_object)
+                        │
+                        ▼
+           Le produit est-il périmé ?
+                 │                    │
+               Oui                   Non
+                 │                    │
+                 ▼                    ▼
+          400 Bad Request      Validation du Serializer
+                                      │
+                                      ▼
+                  L'entrepôt existe-t-il ?
+                          │                  │
+                        Non                 Oui
+                          │                  │
+                          ▼                  ▼
+                  400 Bad Request     Mise à jour du produit
+                                             │
+                                             ▼
+                                       product.save()
+                                             │
+                                             ▼
+                                      200 OK + Message
+
+```
+
 # Auteur
 
 - Aliou DIALLO
+
+---
