@@ -259,18 +259,18 @@ Dans le cas contraire, l'API retourne un code HTTP approprié (`400`, `401` ou `
 Un schéma explicatif de la requête de transfert détaillant la validation métier.
 
 ```
-Client (Postman / Swagger)
-            │
-            │
-    POST /api/products/{id}/move/
-            │
-            ▼
-    ProductViewSet.move()
-            │
-            ▼
-    Récupération du produit (get_object)
-                        │
-                        ▼
+                    Client (Postman / Swagger)
+                              │
+                              │
+               POST /api/products/{id}/move/
+                              │
+                              ▼
+                    ProductViewSet.move()
+                              │
+                              ▼
+              Récupération du produit (get_object)
+                              │
+                              ▼
            Le produit est-il périmé ?
                  │                    │
                Oui                   Non
@@ -297,5 +297,3 @@ Client (Postman / Swagger)
 # Auteur
 
 - Aliou DIALLO
-
----
