@@ -298,25 +298,47 @@ Un schéma explicatif de la requête de transfert détaillant la validation mét
 
 ## Capture d'ecrans test des Endpoints sur Postman
 
+# Authentification JWT
+
 ![Authentification](Captures/Authentification.png)
 
 ---
 
-![Liste des produits](Captures/Liste%20produits.png)
-![Créer un produit](Captures/creer%20un%20produit.png)
-![Modifier un produit](Captures/Modifier%20un%20produit.png)
-![Supprimer un produit](Captures/supprimer%20un%20produit.png)
-![Deplacer un produit](Captures/Transfert%20produit.png)
+# EndPoint Product
 
+- Liste  des produits
+![Liste des produits](Captures/Liste%20produits.png)
+
+- Creer un produit
+![Créer un produit](Captures/creer%20un%20produit.png)
+
+- Modifier un produit
+![Modifier un produit](Captures/Modifier%20un%20produit.png)
+
+- Supprimer un produit
+![Supprimer un produit](Captures/supprimer%20un%20produit.png)
+
+- Deplacer un produit
+![Deplacer un produit](Captures/Transfert%20produit.png)
 
 ---
 
-![Liste des entrepôts](Captures/Liste%20entrepots.png)
-![Créer un entrepôt](Captures/Creer%20un%20entreprot.png)
-![Modifier un entrepôt](Captures/Modifier%20un%20produit.png)
-![Supprimer un entrepôt](Captures/supprimer%20un%20produit.png)
-![Audit de l'entrepôt](Captures/Audit%20entreprot.png)
+# EndPoint Warehouse
 
+- Liste des entrepôts
+![Liste des entrepôts](Captures/Liste%20entrepots.png)
+
+- Créer un entrepôt
+![Créer un entrepôt](Captures/Creer%20un%20entreprot.png)
+
+- Modifier un entrepôt
+![Modifier un entrepôt](Captures/Modifier%20un%20produit.png)
+
+- Supprimer un entrepôt
+![Supprimer un entrepôt](Captures/supprimer%20un%20produit.png)
+
+- Audit de l'entrepôt
+![Audit de l'entrepôt](Captures/Audit%20entreprot.png)
 
 
 # Auteur
