@@ -294,6 +294,31 @@ Un schéma explicatif de la requête de transfert détaillant la validation mét
 
 ```
 
+---
+
+## Capture d'ecrans test des Endpoints sur Postman
+
+![Authentification](Captures/Authentification.png)
+
+---
+
+![Liste des produits](Captures/Liste%20produits.png)
+![Créer un produit](Captures/creer%20un%20produit.png)
+![Modifier un produit](Captures/Modifier%20un%20produit.png)
+![Supprimer un produit](Captures/supprimer%20un%20produit.png)
+![Deplacer un produit](Captures/Transfert%20produit.png)
+
+
+---
+
+![Liste des entrepôts](Captures/Liste%20entrepots.png)
+![Créer un entrepôt](Captures/Creer%20un%20entreprot.png)
+![Modifier un entrepôt](Captures/Modifier%20un%20produit.png)
+![Supprimer un entrepôt](Captures/supprimer%20un%20produit.png)
+![Audit de l'entrepôt](Captures/Audit%20entreprot.png)
+
+
+
 # Auteur
 
 - Aliou DIALLO
